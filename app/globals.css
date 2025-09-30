@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --brand:#ef9b11;
+}
+html, body {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+.container {
+  @apply max-w-7xl mx-auto px-4;
+}
+.card {
+  @apply bg-white border rounded-2xl p-6 shadow-sm;
+}
+.btn {
+  @apply px-5 py-3 rounded-2xl font-semibold;
+}
+.btn-brand {
+  @apply text-white;
+  background-color: var(--brand);
+}
+.btn-outline-brand{
+  @apply border;
+  color: var(--brand);
+  border-color: var(--brand);
+}
+.text-muted { @apply text-neutral-600; }
+.heading { @apply text-3xl md:text-4xl font-bold; }
+.subtle { @apply text-neutral-700; }
+.mauticform-page-wrapper > div {
+    margin-bottom: 15px;
+}
