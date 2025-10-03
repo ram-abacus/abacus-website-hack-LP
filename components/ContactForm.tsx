@@ -131,7 +131,7 @@ export default function MauticForm() {
                 id="mauticform_input_abacusdeskwordpresssitehacked_submit"
                 type="submit"
               >
-                Request Emergency Help
+                Get a Free Report
               </button>
             </div>
 
