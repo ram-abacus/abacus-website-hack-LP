@@ -136,7 +136,7 @@ export default function Page() {
 
           <div className="mt-10 grid md:grid-cols-3 gap-6">
             <div className="card flex flex-col">
-              <h3 className="text-xl font-bold">Essential DeepScan</h3>
+              <h3 className="text-xl font-bold">Start DeepScan</h3>
               <p className="text-sm text-neutral-600">For single incidents</p>
               <p className="mt-4 text-4xl font-extrabold" style={{ color: '#ef9b11' }}>₹9,999</p>
               <ul className="mt-4 space-y-2 text-sm text-neutral-700">
@@ -152,7 +152,7 @@ export default function Page() {
               <div className="text-xs font-semibold uppercase tracking-wider self-start px-2 py-1 rounded-md mb-2" style={{ backgroundColor: '#ef9b11', color: 'white' }}>Most Popular</div>
               <h3 className="text-xl font-bold">Priority Fixing</h3>
               <p className="text-sm text-neutral-600">Fast‑track + hardening</p>
-              <p className="mt-4 text-4xl font-extrabold" style={{ color: '#ef9b11' }}>₹14,999</p>
+              <p className="mt-4 text-4xl font-extrabold" style={{ color: '#ef9b11' }}>₹19,999</p>
               <ul className="mt-4 space-y-2 text-sm text-neutral-700">
                 <li>• Everything in Essential</li>
                 <li>• 12‑hour response SLA</li>
