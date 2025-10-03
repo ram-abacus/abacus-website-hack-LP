@@ -136,7 +136,7 @@ export default function Page() {
 
           <div className="mt-10 grid md:grid-cols-3 gap-6">
             <div className="card flex flex-col">
-              <h3 className="text-xl font-bold">Essential Cleanup</h3>
+              <h3 className="text-xl font-bold">Essential DeepScan</h3>
               <p className="text-sm text-neutral-600">For single incidents</p>
               <p className="mt-4 text-4xl font-extrabold" style={{ color: '#ef9b11' }}>₹9,999</p>
               <ul className="mt-4 space-y-2 text-sm text-neutral-700">
@@ -150,7 +150,7 @@ export default function Page() {
 
             <div className="card flex flex-col border-2" style={{ borderColor: '#ef9b11' }}>
               <div className="text-xs font-semibold uppercase tracking-wider self-start px-2 py-1 rounded-md mb-2" style={{ backgroundColor: '#ef9b11', color: 'white' }}>Most Popular</div>
-              <h3 className="text-xl font-bold">Priority Response</h3>
+              <h3 className="text-xl font-bold">Priority Fixing</h3>
               <p className="text-sm text-neutral-600">Fast‑track + hardening</p>
               <p className="mt-4 text-4xl font-extrabold" style={{ color: '#ef9b11' }}>₹14,999</p>
               <ul className="mt-4 space-y-2 text-sm text-neutral-700">
@@ -163,9 +163,9 @@ export default function Page() {
             </div>
 
             <div className="card flex flex-col">
-              <h3 className="text-xl font-bold">Managed WordPress Care</h3>
+              <h3 className="text-xl font-bold">Enterprise Website</h3>
               <p className="text-sm text-neutral-600">Prevention & support</p>
-              <p className="mt-4 text-4xl font-extrabold" style={{ color: '#ef9b11' }}>₹4,999/mo</p>
+              <a href="#contact" className="mt-4 text-4xl font-extrabold" style={{ color: '#ef9b11' }}>Get Quote</a>
               <ul className="mt-4 space-y-2 text-sm text-neutral-700">
                 <li>• Continuous updates</li>
                 <li>• Daily backups & Uptime</li>
